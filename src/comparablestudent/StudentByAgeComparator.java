@@ -15,7 +15,7 @@ public class StudentByAgeComparator implements Comparator<Student>{
         Integer age1 = student1.getAge();
         Integer age2 = student2.getAge();
         
-        int returnValue = age1.compareTo(age2); // using compareTo from Integer
+        int returnValue = age1.compareTo(age3); // using compareTo from Integer
 
 //        int returnValue = age1 - age2; // in one step!
         
